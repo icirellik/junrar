@@ -21,7 +21,7 @@ package com.github.junrar.rarfile;
 
 public enum SubBlockHeaderType
 {
-  EA_HEAD short)0x100),
+  EA_HEAD ((short)0x100),
   UO_HEAD ((short)0x101),
   MAC_HEAD ((short)0x102),
   BEEA_HEAD ((short)0x103),
